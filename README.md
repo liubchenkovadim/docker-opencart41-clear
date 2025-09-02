@@ -1,5 +1,5 @@
     docker volume ls
-    docker volume ls rm name
+    docker volume  rm name
 
 Check status
 
