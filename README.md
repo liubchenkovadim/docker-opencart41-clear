@@ -30,7 +30,7 @@ start the build
 
     docker compose up -d --build
 
-When you first start, a dump of a clean CMS will be loaded into the database (in this folder opencart 4.1)
+When you first start, a dump of a clean CMS will be loaded into the database
 
 projects create their own components and different cms will not overwrite each other.
 
