@@ -9,6 +9,7 @@ Check status
 
 Optional: full Docker cleanup (GLOBAL — will remove everything unused)
 
+    docker stop $(docker ps -q)
     docker system prune -a --volumes -f
     docker rmi $(docker images -q)
     docker system prune -a --volumes
