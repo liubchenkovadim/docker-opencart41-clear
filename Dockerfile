@@ -17,3 +17,5 @@ RUN a2enmod rewrite
 
 # Встановлюємо робочу директорію
 WORKDIR /var/www/html
+RUN echo "upload_max_filesize = 128M\npost_max_size = 128M\nmemory_limit = 256M\nmax_execution_time = 300" \
+    > /usr/local/etc/php/conf.d/custom.ini
